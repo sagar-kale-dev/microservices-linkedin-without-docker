@@ -81,6 +81,12 @@ Responsible for:
 - Post events
 - Connection events
 
+### Discovery Service
+Responsible for service discovery
+
+#### Eureka running on localhost screenshot
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1591c2c2-fbe1-4e4d-8d61-302345d2e2f3" />
+
 ## Event-Driven Communication
 
 The system uses **Apache Kafka** for asynchronous communication between services.
@@ -90,4 +96,28 @@ The system uses **Apache Kafka** for asynchronous communication between services
 - When a **post is created** → Post Service publishes event → Notification Service consumes and sends notification.
 - When a **post is liked** → Post Service publishes event → Notification Service sends notification.
 - When a **connection request is sent/accepted** → Connection Service publishes event → Notification Service notifies users.
+
+#### Krafbat UI Screenshot of topics created
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6a3d25f2-18ec-4caf-8e83-8d679386015c" />
+
+## DB Screenshots
+
+## Connections DB(Neo4j)
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/79df9b74-88da-41f2-bd00-701645891e73" />
+
+## Notifications DB
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/57d8b297-514a-4773-b045-2e34ef9aa956" />
+
+## Posts DB
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b650eb72-2a73-4e6f-b04f-c2c147697ce8" />
+
+## Users DB
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f09b695b-1ba7-4adf-b9ca-33437dbe2dda" />
+
+
+
 
